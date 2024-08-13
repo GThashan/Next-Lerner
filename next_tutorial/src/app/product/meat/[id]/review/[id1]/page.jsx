@@ -1,9 +1,9 @@
 import React from 'react'
 
-function page() {
+function page({params}) {
   return (
     <div>
-      <h1>meat</h1>
+      <h1>review {params.id1} </h1>
     </div>
   )
 }
